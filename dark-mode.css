@@ -471,6 +471,16 @@ html.dark-mode ._2f5n {
 	background-color: var(--container-color);
 }
 
+/* Message box: change color of bottom white line */
+.fbNubFlyoutAttachments {
+	background-color: var(--container-color) !important;
+	border: 0px solid var(--base-ten) !important; /* Colors the white dot on the left side of line */
+}
+.chatAttachmentShelf {
+	background-color: var(--container-color) !important;
+	border-top: 1px solid var(--base-ten) !important;
+}
+
 /* Bot quick-reply buttons */
 html.dark-mode ._3u69 {
 	background: var(--container-color) !important;
